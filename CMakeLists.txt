@@ -111,3 +111,11 @@ add_executable(mono_euroc
 Examples/Monocular/mono_euroc.cc)
 target_link_libraries(mono_euroc ${PROJECT_NAME})
 
+add_executable(myslam 
+Examples/Monocular/myslam.cpp)
+target_link_libraries(myslam ${PROJECT_NAME})
+
+add_executable(myvideo 
+Examples/Monocular/myvideo.cpp)
+target_link_libraries(myvideo ${PROJECT_NAME})
+
